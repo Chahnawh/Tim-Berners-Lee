@@ -1,71 +1,108 @@
-body{
+body {
     text-align: center;
     margin: 0;
     padding-top: 800px;
-    
+
 }
-.profile{
+
+.profile {
     width: 150px;
     border-radius: 50%;
     margin-bottom: 50px;
-    
+
 }
-#Welcome{
- position: absolute;
+
+#Welcome {
+    position: absolute;
     overflow: hidden;
     height: 800px;
     color: black;
     left: 0;
     right: 0;
-    top:0;
+    top: 0;
     bottom: 0;
-    background: linear-gradient( #fff1e3 0%,#d4ff17 100%);
+    background: linear-gradient(#fff1e3 0%, #d4ff17 100%);
     opacity: 0.9;
-    display: table; 
+    display: table;
     width: 100%;
     height: 100%;
-    
+    z-index: 9;
+
 }
-#bio{
- padding: 50px;
+
+#bio {
+    padding: 50px;
     font-size: 35px;
 
 }
-h1{
+
+h1 {
     font-size: 32px;
     line-height: 1.2;
-    font-family: inherit; 
-    font-weight: 300; 
-}
-#name{ 
-  font-size: 25px;
-    line-height: 1.2;
-    font-family:cursive;
-    
-}
-h2{
-    font-size: 25px;
-    line-height: 1.2;
-    font-family:sans-serif; 
+    font-family: inherit;
     font-weight: 300;
 }
-.parallax-inner{
+
+#name {
+    font-size: 25px;
+    line-height: 1.2;
+   font-family: 'Cedarville Cursive', cursive;
+}
+
+h2 {
+    font-size: 25px;
+    line-height: 1.2;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+.parallax-inner {
     display: table-cell;
     position: relative;
     vertical-align: middle
 }
-p{ 
-font-size: 20px;
+
+p {
+    font-size: 20px;
     margin: 25px auto;
     line-height: 1.6;
     max-width: 450px;
-    
-    
+font-family: 'Cedarville Cursive', cursive;
+
 }
-.line{
+
+.line {
     background-color: black;
     height: 5px;
     width: 200px;
     margin: 8px auto;
+
+}
+
+.menu {
+
+    z-index: 10;
+    list-style: none;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    cursor: pointer; 
+
+}
+
+.links {
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 9px;
+    padding-left: 9px;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: darkblue;
+    font-weight: 300;
+}
+.links:hover{
+    background-color: white;
+    font-size: 24px;
     
 }
